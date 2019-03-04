@@ -1,0 +1,19 @@
+.digit {
+  display: inline-block;
+}
+.digit-enter {
+  opacity: 0.01;
+}
+.digit-enter-active {
+  opacity: 1;
+  transition: all 100ms ease-out;
+}
+.digit-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.digit-exit-active {
+  opacity: 0.01;
+  transform: translateY(-100%);
+  transition: all 1000ms ease-in;
+}
